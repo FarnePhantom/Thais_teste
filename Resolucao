@@ -1,0 +1,2 @@
+SELECT avg(vl_total) as Média_Total from tb_customer account where (id_customer>1500 and id_customer<2700) and (vl_total>560);
+SELECT * from tb_customer_account where (id_customer>1500 and id_customer<2700) and (vl_total>560) ORDER by vl_total desc;
